@@ -7,24 +7,33 @@
   <meta name= "viewport" content= width="device-width, initial-scale=1.0">    <!--usato per programmare sia in desktop che in telefono -->
   
   <title> Curriculum personale </title>
+  <link rel= "stylesheet" href= "style/style.css" />
  </head>
  <body>
  
       <header>
        <h2> CV Carmela D'Onghia </h2>
 	       Laureanda magistrale in Ingegneria gestionale- Gestione d'impresa
-	  </header> 
-	  
-      <nav>
+		   
+		   <input class="side-menu" type="checkbox" id="side-menu"/>                    <!--u input tipo v/f-->
+        <label class="hamb" for="side-menu"><span class="hamb-line"></span></label>      <!-- label descrittiva dell'input tramite id -->
+	
+	  <nav>
           <ul> 
-		      <li> 
+		       
+			  <li> 
 			     <a href= "index.html"> Home / CV </a>
 			  </li>
 			  <li> 
 			     <a href= "about.html"> About me </a>
 			  </li>
+			  
 		  </ul>
-	  </nav>
+	   </nav>	
+	  
+	  </header> 
+	  
+      
 	  
       <main>  
            
@@ -85,7 +94,8 @@
 		   <article>
               <h3> Interessi - Sport </h3>
 			  <section> 
-			        Nuoto
+			        <li> Nuoto </li>
+					<li> Serie tv </li>
 			  </section>
 		   </article>
 		   
@@ -99,4 +109,5 @@
 	  </footer>
  </body>
 </html>
+ 
  
